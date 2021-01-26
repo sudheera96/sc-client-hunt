@@ -1,0 +1,19 @@
+{
+  "name": "sc-client-hunt",
+  "version": "1.0.0",
+  "description": "This application is about demo of hunt game from client side",
+  "main": "init-locations.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudheera96/sc-client-hunt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudheera96/sc-client-hunt/issues"
+  },
+  "homepage": "https://github.com/sudheera96/sc-client-hunt#readme"
+}
