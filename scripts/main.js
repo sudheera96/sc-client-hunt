@@ -1,3 +1,7 @@
+// Resource : http://www.movable-type.co.uk/scripts/latlong.html?from=48.86,-122.0992&to=48.8599,-122.1449 
+// Above link for calculating distance 
+
+
 import locationsArray from '../init-locations.js';
 
 // for location element we assigned location id.
