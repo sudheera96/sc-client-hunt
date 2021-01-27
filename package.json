@@ -2,7 +2,7 @@
   "name": "sc-client-hunt",
   "version": "1.0.0",
   "description": "This application is about demo of hunt game from client side",
-  "main": "init-locations.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/sudheera96/sc-client-hunt.git"
   },
-  "author": "",
+  "author": "Sri Sudheera",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sudheera96/sc-client-hunt/issues"
