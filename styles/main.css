@@ -3,7 +3,7 @@ article{
   width: 300px;
   border: 15px solid green;
   padding: 50px;
-  margin-left: 450px;
+  margin: 0 auto;
   text-align: center;
 }
 footer{
