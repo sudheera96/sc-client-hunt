@@ -42,12 +42,17 @@ async function locationHandler() {
     locationsArray.forEach(function (value) {
         if (isInside(value.Latitude, value.Longitude)) {
             document.getElementById("locationAnswer").innerHTML = value.Name;
+            let utterance = new SpeechSynthesisUtterance("You reached the quest. Welcome to " + value.Name);
+            speechSynthesis.speak(utterance);
             error = false;
         }
     });
 
     if(error) {
-        document.getElementById("error-message").innerHTML = "You're not 30 meters nearer to any place.";
+        let innerHTML = "You're not 30 meters nearer to any place.";
+        document.getElementById("error-message").innerHTML = innerHTML;
+        let utterance = new SpeechSynthesisUtterance(innerHTML);
+        speechSynthesis.speak(utterance);
     } else {
         document.getElementById("error-message").innerHTML = "";
     }
