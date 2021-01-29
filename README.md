@@ -9,4 +9,5 @@ This application is about demo of hunt game from client side
 ## Source
 
 [Distance Javascript](http://www.movable-type.co.uk/scripts/latlong.html?from=48.86,-122.0992&to=48.8599,-122.1449)
+[Speech Synthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis)
 
